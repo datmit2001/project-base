@@ -1,0 +1,107 @@
+.container{
+    margin: 0 auto;
+    max-width: 316px;
+    padding-top: 72px;
+    font-family: Roboto;
+}
+.title-login{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    padding-bottom: 32px;
+
+}
+.title-input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: 8px;
+}
+.error{
+    min-height: 20px;
+}
+span{
+    color: #e53e3e;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom:0;
+    margin-top: 0;
+    min-height: 20px;
+}
+input{
+    padding: 10px 0px 10px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: black;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline-color: #0075ff;
+}
+::placeholder {
+padding: 0 10px;
+}
+.title-password{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.forgot-passwor{
+    font-weight: 400;
+    font-size: 12px;
+    color: #0075ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.password{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    position: absolute;
+    right: 0;
+    margin-right: 10px
+}
+.login{
+    background: #ff661a;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.register{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 32px 0 13px 0;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+.account{
+    color: #222222;
+    background: #f8f8f8;
+    border: 1px solid #cccccc;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+}

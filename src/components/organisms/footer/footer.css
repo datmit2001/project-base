@@ -1,0 +1,38 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+.title-company{
+    background: #111111;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+.divider{
+    width: 1px;
+    height: 12px;
+    background-color: #c4c4c4;
+    margin: 0 20px;
+}
+.linkcommon{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
